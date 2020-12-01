@@ -68,8 +68,50 @@
   .buy-button {
     display: none;
   }
+  /* mobile nav  */
+  .menu-toggle{
+    color: #fff;
+    float: right;
+    line-height: 30px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .nav-bar-mb nav.active{
+    display: block;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: rgba(255, 158, 0, 1);
+    top: 82px;
+    right: 0;
+  }
+  .nav-bar-mb li:hover{
+    background-color: white;
+  }
+  .nav-bar-mb li{
+    margin-left: -10%;
+    list-style-type: none;
+    text-align: left;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #333;
+  }
+  .nav-bar-mb a{
+    margin-top: 2%;
+    margin-left: 3%;
+    display: block;
+    top: -10%;
+    text-decoration: none;
+    color: #333;
+  }
+  .nav-bar-mb ul{
+    display: block;
+    text-align: center;
+  }
+  .nav-bar-mb nav{
+    display: none;
+  }
   /* ---- */
-  .header2 {
+  .header2-content {
     background: radial-gradient(
       ellipse at center,
       rgba(255, 158, 0, 1) 0%,
@@ -92,9 +134,15 @@
     text-align: center;
     position: fixed;
     padding: 1% 0;
+    display: inline-block;
+  }
+  .second-header2{
+    font-size: 16px;
+    text-align: center;
   }
   .first-header2 {
     font-size: 16px;
+    text-align: center;
   }
   .first-header2 a {
     background-color: #c51801;
@@ -108,7 +156,7 @@
     text-decoration: none;
   }
   .header2-intro-container {
-    margin-top: 12%;
+    margin-top: 20%;
   }
   .header2-intro h1 {
     font-size: 22px;
@@ -310,7 +358,9 @@
   /* more reason */
   .more-reasons-big-box {
     text-align: center;
+    width: 100%;
   }
+
   /* Read more */
   .read-more {
     padding: 13px 0;
@@ -386,8 +436,50 @@
   .buy-button {
     display: none;
   }
+  /* mobile-nav */
+  .menu-toggle{
+    color: #fff;
+    float: right;
+    line-height: 30px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .nav-bar-mb nav.active{
+    display: block;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: rgba(255, 158, 0, 1);
+    top: 82px;
+    right: 0;
+  }
+  .nav-bar-mb li:hover{
+    background-color: white;
+  }
+  .nav-bar-mb li{
+    margin-left: -8%;
+    list-style-type: none;
+    text-align: left;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #333;
+  }
+  .nav-bar-mb a{
+    margin-top: 2%;
+    margin-left: 3%;
+    display: block;
+    top: -10%;
+    text-decoration: none;
+    color: #333;
+  }
+  .nav-bar-mb ul{
+    display: block;
+    text-align: center;
+  }
+  .nav-bar-mb nav{
+    display: none;
+  }
   /* ---- */
-  .header2 {
+  .header2-content {
     background: radial-gradient(
       ellipse at center,
       rgba(255, 158, 0, 1) 0%,
@@ -708,8 +800,50 @@
   .buy-button {
     display: none;
   }
+  /* mobile-nav */
+  .menu-toggle{
+    color: #fff;
+    float: right;
+    line-height: 30px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .nav-bar-mb nav.active{
+    display: block;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: rgba(255, 158, 0, 1);
+    top: 82px;
+    right: 0;
+  }
+  .nav-bar-mb li:hover{
+    background-color: white;
+  }
+  .nav-bar-mb li{
+    margin-left: -5%;
+    list-style-type: none;
+    text-align: left;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #333;
+  }
+  .nav-bar-mb a{
+    margin-top: 2%;
+    margin-left: 3%;
+    display: block;
+    top: -10%;
+    text-decoration: none;
+    color: #333;
+  }
+  .nav-bar-mb ul{
+    display: block;
+    text-align: center;
+  }
+  .nav-bar-mb nav{
+    display: none;
+  }
   /* ---- */
-  .header2 {
+  .header2-content {
     background: radial-gradient(
       ellipse at center,
       rgba(255, 158, 0, 1) 0%,
@@ -1007,7 +1141,9 @@
     font-family: "Lato", sans-serif;
   } */
   /* hidden mobile content */
-
+  .header-mb {
+    display: none;
+  }
   .header2 {
     display: none;
   }
@@ -1059,8 +1195,12 @@
     float: left;
     list-style: none;
   }
-
+  .nav-bar a:hover{
+    background-color: #c41301;
+    color: white;
+  }
   .nav-bar ul li a {
+    float: left;
     text-decoration: none;
     color: black;
     padding: 0px 11px;
@@ -1640,6 +1780,9 @@
   * {
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
+  }
+  .header-mb {
+    display: none;
   }
   .header {
     background-color: white;
